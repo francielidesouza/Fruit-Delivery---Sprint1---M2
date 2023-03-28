@@ -1,0 +1,17 @@
+
+:root{
+    --color-brand: #6C9912;
+    --color-brown-1: #581303;
+    --color-brown-2: #907052;
+    --color-yellow-3: #E2D493;
+    --color-yellow-4: #fff9db;
+    --color-yellow-5: #FFFFF1;
+
+    --border-radius: 8px;
+    --border: 2px solid #E2D493
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}

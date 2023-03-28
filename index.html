@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <!-- JS -->
+    <script src="./src/scripts/modal.js" defer></script>
+
+    <title>S1-14 🏁 Entrega - Página de Login</title>
+</head>
+
+<body>
+<main class="main__container">
+    <div class="border">
+        <section class="container__home">
+            <figure>
+                <img class="home__logo" src="./src/img/logo.PNG" alt="Logo La Fruteria">
+                <figcaption>Uma caminhonete transportando frutas</figcaption>
+            </figure>
+            <h1 class="home__title">La Fruteria</h1>
+            <h2 class="home__description">DELIVERY DE FRUTAS</h2>
+        </section>
+        <section class="container__login">
+            
+            <form class="login__form">
+                <h3 class="login__welcome">Bem vindo(a)</h3>
+            <div class="login__border">
+                <label class="login__label" for="email">E-mail</label>
+                <input class="login__input" type="e-mail" id="e-mail" value="" placeholder="Digite o seu e-mail" required>
+    
+                <label class="login__label" for="senha">Senha</label>
+                <input class="login__input" type="password" id="senha" value="" placeholder="Digite a sua senha" required>
+                <p class="login__span" id="recPassword">Esqueceu a sua senha?</p>
+    
+                <button class="login__btn" type="submit">Entrar</button>
+            </div>
+            </form>
+        </section>
+    </div>
+</main>
+
+</body>
+
+</html>

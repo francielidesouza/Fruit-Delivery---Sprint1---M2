@@ -1,0 +1,141 @@
+.main__container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+.border{
+    background-color: var(--color-yellow-4);
+    border: var(--border);
+
+    display: flex;
+    justify-content: center;
+}
+
+.container__home{
+    width: 357px;
+    height: 407px;
+    background-color: var(--color-yellow-4);
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__logo{
+    width: 292.78px;
+    height: 153px;
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+figcaption{
+    display: none;
+}
+
+.home__title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--color-brand);
+
+    width: 263px;
+    height: 51px;
+}
+
+.home__description{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-brown-1);
+    text-align: center;
+
+    width: 264px;
+    height: 29px;
+}
+
+.container__login{
+    width: 357px;
+    height: 407px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form{
+    width: 289px;
+    height: 319px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.login__welcome{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-brown-1);
+    text-align: left;
+
+    width: 155px 1px;
+}
+
+.login__border{
+    width: 288px;
+    height: 278px;
+    padding: 20px 10px;
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
+
+.login__label{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--color-brown-2);
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.login__input{
+    border-radius: var(--border-radius);
+    border: var(--border);
+    width: 268.82px;
+    height: 46px;
+}
+
+.login__input::placeholder{
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--color-brown-2);
+    background-color: var(--color-yellow-5);
+    padding-left: 10px;
+}
+
+.login__span{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--color-brown-2);
+    text-align: right;
+    cursor: pointer;
+}
+
+.login__btn{
+    border-radius: var(--border-radius);
+    background-color: var(--color-brand);
+    width: 268.82px;
+    height: 46px;
+
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--color-brown-1);
+    margin-top: 30px;
+    cursor: pointer;
+}
